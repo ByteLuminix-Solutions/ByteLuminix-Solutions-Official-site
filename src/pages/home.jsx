@@ -108,7 +108,7 @@ export function Home() {
           In the realm of technology innovation, Ted Scambos, our lead scientist at ByteLuminix Solutions, 
           pushes the boundaries with potentially groundbreaking advancements.
           </PageTitle>
-          <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-3">
             {teamData.map(({ img, name, position, socials }) => (
               <TeamCard
                 key={name}

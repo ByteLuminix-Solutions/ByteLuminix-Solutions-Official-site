@@ -32,7 +32,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
               ))}
             </div>
           </div>
-          <div className="mx-auto mt-12 grid w-max grid-cols-2 gap-24 lg:mt-0">
+          <div className="mx-auto mt-12 grid w-max grid-cols-1 gap-24 lg:mt-0">
             {menus.map(({ name, items }) => (
               <div key={name}>
                 <Typography
@@ -93,11 +93,11 @@ Footer.defaultProps = {
       name: "youtube",
       path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
     },
-    {
-      color: "gray",
-      name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
-    },
+    // {
+    //   color: "gray",
+    //   name: "instagram",
+    //   path: "https://www.instagram.com/creativetimofficial/",
+    // },
     {
       color: "black",
       name: "github",
