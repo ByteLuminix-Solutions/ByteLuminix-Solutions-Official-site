@@ -6,5 +6,4 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
   },
-  base: "/ByteLuminix-Solutions-Official-site/",
 });
