@@ -19,9 +19,9 @@ export const teamData = [
     ],
   },
   {
-    img: "/img/team-2.jpg",
-    name: "Mayura Sadakalum",
-    position: "Data Engineer",
+    img: "/img/team-2.png",
+    name: "Mayura Sandakalum",
+    position: "Machine Learning Engineer",
     socials: [
       {
         color: "light-blue",
